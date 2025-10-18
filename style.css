@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Happy+Monkey&family=Outfit:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Figtree" , sans-serif ;
+
+}
+
+main {
+    height: 100vh;
+    background-color: #F4D04E; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containter{
+    background-color: #ffffff;  
+    width: 384px ;
+    height: 522px;
+    padding: 24px;
+    border: 1px solid #111111;
+    box-shadow: 8px 8px #111111;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    
+    
+}
+.card__image{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card__info--wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    
+}
+.card__subject--wrapper{
+    background-color: #F4D04E; 
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 82px ;
+    height: 29px;
+    
+}
+.card__subject--title,
+.card__publish-date{
+    color: #111111;
+}
+
+.card__publish-date{
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+
+.card__subject--title{
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-weight: 800;    
+}
+
+.card__header {
+    color: #F4D04E;
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+.card__para{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 150%;
+    color: #6B6B6B;
+    text-align: left;
+    
+}
+
+.card__author--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.author__image{
+    width: 32px;
+    height: 32px;
+}
+
+.author__name{
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 800;
+    letter-spacing: 0;
+    padding-left:12px ;
+}
+
+@media(max-width :480px) {
+    .containter{
+    width: 327px ;
+    height: 501px;
+    }
+
+    .card__subject--wrapper{
+        width: 73px ;
+        height: 26px;
+        
+    }
+      .card__publish-date{
+        font-size: 12px;
+    }
+
+
+    .card__subject--title{
+        font-size: 14px;
+      
+    }
+
+    .card__header {
+        color: #111111;
+        font-size: 20px;
+    }
+
+    .card__para{
+        font-size: 14px;
+    }
+
+    .author__name{
+        padding-left:10px ;
+    }
+}
