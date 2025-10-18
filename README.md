@@ -38,4 +38,4 @@ Part 2 Objective: Build the blog preview card to match the design, focusing on a
 
  Rice 🍚 
  ([thegrainofrice.com](https://www.thegrainofrice.com/))
- ([Linkedin](www.linkedin.com/in/patrice-maxwell))
+ ([Linkedin](https://www.linkedin.com/in/patrice-maxwell))
